@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Item from "./Item";
 
 function ShoppingList({ items }) {
+  console.log(items);
+  // const [selectedCategory,setFilterBy] = useState("filter");
+  // const foodsToDisplay =
   return (
     <div className="ShoppingList">
       <div className="Filter">
